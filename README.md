@@ -1,7 +1,7 @@
 # migrate-helm-v2-releases-to-helm-v3
 Migrate Existing Helm v2 releases into Helm v3
 
-In this repository you can find the two scripts, one for installing the helmswitch binary and other for migration script. If you dont have helmswitch binary installed in your machine please run the install helmswitch script. 
+In this repository you can find the two scripts, one for installing the helmswitch binary and other for migration script. If you dont have helmswitch binary installed in your machine please run the install helmswitch script. This script will install the helmswitch binary and 2to3 helm plugin.
 
 Using migration script you can easily migrate our existing helm 2 releases into helm 3, or you can automate the migration process by applying this script into the deployment pipeline.
 
